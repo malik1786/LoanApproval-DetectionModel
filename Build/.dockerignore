@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.DS_Store
+.git/
+.gitignore
+.env
+*.pkl
+# Optional: If you want to include the model in the image, comment the line above. 
+# Since final_model.pkl is required for the app to run, we SHOULD include it.
+!final_model.pkl
